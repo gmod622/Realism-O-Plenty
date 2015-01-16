@@ -41,7 +41,7 @@ public class ModelTestTable extends ModelBase
       Leg4.setRotationPoint(-8F, 9F, -8F);
       Leg4.setTextureSize(64, 64);
       Leg4.mirror = true;
-      setRotation(Leg4, 0F, 0F, 0F);
+      setRotation(Leg4, 0F, 0F, 0F); 
       Top = new ModelRenderer(this, 0, 0);
       Top.addBox(0F, 0F, 0F, 16, 1, 16);
       Top.setRotationPoint(-8F, 8F, -8F);
